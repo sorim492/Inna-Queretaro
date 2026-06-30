@@ -1,0 +1,64 @@
+:root{
+  --primary-color: #512DA8;
+  --secondary-color: #673AB7;
+  --link-color: #7C4DFF;
+  --hover-color: #757575;
+  --divider-color-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  --divider-color: #F8F9FA;
+  --subtitle-font: "Kode Mono", monospace;
+  --text-font: "Young Serif", serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+Footer{
+  padding-top: 5px;
+  background: var(--divider-color-gradient);
+  width: 100%;
+  min-height: 30px;
+}
+
+Footer .container{
+  margin-left: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+Footer .card{
+width: 18rem;
+}
+
+footer .card-body a{
+  margin: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
