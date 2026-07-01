@@ -1,5 +1,6 @@
 import React from "react";
-import espacio from "./logo.png";
+import logo from "./logo.png";
+import Clases from "./clases";
 
 export default function Main(){
     return(
@@ -7,10 +8,10 @@ export default function Main(){
             <div className="container">
                 <div className="row name">
                     <div className="col-lg-6 col-sm-12">
-                        <h1>Inna Pole Queretaro</h1>
+                        <h1>Inna Pole Querétaro</h1>
                     </div>  
                     <div className="col-lg-6 col-sm-12">
-                        <img src={espacio} alt="personal" className="img-fluid"/>
+                        <img src={logo} alt="personal" className="img-fluid"/>
                     </div>
                 </div>
                     <hr/>
@@ -36,16 +37,13 @@ export default function Main(){
                             </div>
                         </div>
                     </div>
-                    <p> Engineer with experience in project management in industrial maintenance. I
-                        have worked on projects aimed at optimizing industrial processes that have
-                        taken me to enter the world of data analysis.
+                    <p> Pole Fit </p>
+                    <p>Se enfoca en el entrenamiento físico, fuerza, resistencia y acondicionamiento.</p>
+                    <p>
+                        Pole Flex Enfatiza posturas y transiciones que requieren gran flexibilidad.
                     </p>
-                    <p>The motivation for continuous learning has driven me to start training in topics
-                        such as data science, programming, and data visualization, supported by tools
-                        like Power BI, Python language, Excel. Using these new tools as support,
-                        together with more strong skills like AutoCAD, I have been able to develop a
-                        robust foundation in engineering project management, gain problem-solving
-                        skills, an analytical mindset, and the ability to make informed decisions.
+                    <p>Pole Fly Se centra en la fluidez de movimientos, transiciones suaves y conexión con la música.
+                        Pole Power Entrenamiento físico, enfocado en fuerza, resistencia, acondicionamiento y acrobacia con un mayor grado de dificultad.
                     </p>
                     <div className="main-info">
                         <div className="row">
@@ -57,7 +55,7 @@ export default function Main(){
                             </div>
                         </div>
                     </div>
-                   
+                   <Clases/>
             </div>
         </div>
     )
