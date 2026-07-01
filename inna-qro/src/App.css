@@ -4,7 +4,7 @@
   --link-color: #7C4DFF;
   --hover-color: #757575;
   --divider-color-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  --divider-color: #F8F9FA;
+  --divider-color: #080a0b;
   --subtitle-font: "Kode Mono", monospace;
   --text-font: "Young Serif", serif;
   --secondary-font: "Poppins", sans-serif;
@@ -15,9 +15,66 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
+
+.main{
+  color: #090b0e;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main .name{
+  background-image: url(./fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main h1{
+  padding: 50px;
+  font-size: 45px;
+  font-weight: 800;
+  color: #152a26;
+}
+
+.main h1:hover{
+  color: var(--primary-color);
+  background-color: rgba(192, 192, 245, 0.6);
+}
+
+.main h2{
+  font-family: var(--text-font);
+  color: #152a26;
+}
+
+.main p{
+  font-family: var(--secondary-font);
+}
+
+.main-info{
+  padding: 30px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFF;
+}
+
+.main-info h2:hover{
+  background-color: rgba(243, 192, 245, 0.6);
+}
+
+.main img{
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  border-radius: 15px;
+  transition: all 150ms ease-in-out;
+}
+
+.main img:hover{
+  transform: scale(1.2);
+}
+
 
 Footer{
   padding-top: 5px;
