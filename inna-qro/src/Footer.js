@@ -23,16 +23,19 @@ export default function Footer(){
                                         <a class="nav-link active" aria-current="page" href="/">Inicio</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#clases">Clases</a>
+                                        <a class="nav-link" href="#clases">Horarios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#costos">Costos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#videos">Videos</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#talleres">Talleres</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#nosotros">Nosotros</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#videos">Videos</a>
                                     </li>
                                 </ul>
                             </div>

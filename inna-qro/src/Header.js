@@ -18,7 +18,13 @@ export default function Header(){
                             <a class="nav-link active" aria-current="page" href="/">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#clases">Clases</a>
+                            <a class="nav-link" href="#clases">Horarios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#costos">Costos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#videos">Videos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#talleres">Talleres</a>
@@ -27,13 +33,10 @@ export default function Header(){
                             <a class="nav-link" href="#nosotros">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#videos">Videos</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://api.whatsapp.com/send?phone=524423460246" target="_blank" rel="noreferrer" className="nav-link">Envia mensaje<i class="fa-brands fa-whatsapp contact-icon"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=524423460246" target="_blank" rel="noreferrer" className="nav-link">Envia mensaje <i class="fa-brands fa-whatsapp contact-icon"></i></a>
                         </li>
                     </ul>
                     </div>

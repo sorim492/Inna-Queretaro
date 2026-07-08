@@ -1,9 +1,9 @@
 :root{
   --primary-color: #512DA8;
   --secondary-color: #673AB7;
-  --link-color: #7C4DFF;
+  --link-color: #440be0;
   --hover-color: #757575;
-  --divider-color-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  --divider-color-gradient: linear-gradient(135deg, #f5f7fa 0%, #d37ef5 100%);
   --divider-color: #080a0b;
   --subtitle-font: "Kode Mono", monospace;
   --text-font: "Young Serif", serif;
@@ -26,7 +26,7 @@
 }
 
 .main .name{
-  background-image: url(./fondo.png);
+  background-image: url(./fondo-1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -90,6 +90,7 @@ Footer .container{
 }
 
 Footer .card{
+background: #fff;
 width: 18rem;
 }
 
@@ -104,7 +105,7 @@ footer .card-body a{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #bd5fe2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -112,10 +113,6 @@ footer .card-body a{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 
