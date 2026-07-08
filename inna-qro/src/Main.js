@@ -3,6 +3,7 @@ import logo from "./jess.jpg";
 import alam from "./alam.jpeg";
 import luci from "./luci.jpeg";
 import Clases from "./clases";
+import Costos from "./costo";
 
 export default function Main(){
     return(
@@ -41,20 +42,38 @@ export default function Main(){
                         </div>
                     </div>
                     <div id="fit">
-                    <img src={alam} alt="personal" className="img-fluid"/>
-                    <p> 
-                        Pole Fit Se enfoca en el entrenamiento físico, fuerza, resistencia y acondicionamiento.
-                    </p>
+                        <img src={alam} alt="personal" className="img-fluid"/>
+                        <p> 
+                            Pole Fit Se enfoca en el entrenamiento físico, fuerza, resistencia y acondicionamiento.
+                        </p>
                     </div>
                     <div id="flex">
-                    <img src={luci} alt="personal" className="img-fluid"/>
-                    <p>
-                        Pole Flex Enfatiza posturas y transiciones que requieren gran flexibilidad.
-                    </p>
+                        <img src={luci} alt="personal" className="img-fluid"/>
+                        <p>
+                            Pole Flex Enfatiza posturas y transiciones que requieren gran flexibilidad.
+                        </p>
                     </div>
-                    <p>Pole Fly Se centra en la fluidez de movimientos, transiciones suaves y conexión con la música.
-                        Pole Power Entrenamiento físico, enfocado en fuerza, resistencia, acondicionamiento y acrobacia con un mayor grado de dificultad.
-                    </p>
+                    <div id="fly">
+                        <p>
+                            Pole Fly Se centra en la fluidez de movimientos, transiciones suaves y conexión con la música.
+                        </p>
+                    </div>
+                    <div id="flow">
+                        <p>
+                            Pole Flow Se centra en la fluidez de movimientos, transiciones suaves y conexión con la música.
+                        </p>
+                    </div>
+                    <div id="exotic">
+                        <p>
+                            Pole Exotic Se centra en la fluidez de movimientos, transiciones suaves y conexión con la música.
+                        </p>
+                    </div>
+                    <div id="Power">
+                        <p>
+                            Pole Power Entrenamiento físico, enfocado en fuerza, resistencia, acondicionamiento y acrobacia con un mayor grado de dificultad.
+                        </p>
+                    </div>
+                    
                     <div className="main-info">
                         <div className="row">
                             <div className="col-lg-6 col-sm-12">
@@ -66,6 +85,7 @@ export default function Main(){
                         </div>
                     </div>
                    <Clases/>
+                   <Costos/>
             </div>
         </div>
     )
