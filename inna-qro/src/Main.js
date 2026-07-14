@@ -1,5 +1,7 @@
 import React from "react";
-import logo from "./jess.jpg";
+
+import jess from "./jess.jpg";
+import karla from "./karla.jpeg";
 import alam from "./alam.jpeg";
 import kari from "./kari.jpeg";
 import teffyflow from "./teffy flow.jpeg"
@@ -17,6 +19,8 @@ import Contacto from "./contacto";
 
 
 
+
+
 export default function Main(){
     return(
         <div className="main">
@@ -24,11 +28,22 @@ export default function Main(){
                 <div className="row name">
                     <div className="col-lg-6 col-sm-12">
                         <h1>Inna Pole Querétaro</h1>
-                        <img src={alam} alt="personal" className="img-fluid"/>
-                    </div>  
-                    <div className="col-lg-6 col-sm-12">
-                        <img src={logo} alt="personal" className="img-fluid"/>
-                    </div>
+                        
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src={karla} alt="karla" class="d-block w-100" className="img-fluid"/>
+                                </div>  
+                                <div class="carousel-item">
+                                    <img src={jess} alt="jess" class="d-block w-100" className="img-fluid"/>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={alam} alt="alam" class="d-block w-100" className="img-fluid"/>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>    
                 </div>
                     <hr/>
                     <div className="main-info">
