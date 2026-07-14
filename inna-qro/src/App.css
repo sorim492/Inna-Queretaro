@@ -10,6 +10,10 @@
   --secondary-font: "Poppins", sans-serif;
 }
 
+body{
+  background: linear-gradient(179.4deg, rgb(220, 224, 249) -16.9%, rgb(250, 240, 253) 119.9%);
+}
+
 .App {
   text-align: center;
 }
@@ -66,13 +70,29 @@
 .main img{
   display: block;
   margin: 0 auto;
-  max-width: 60%;
+  max-width: 50%;
   border-radius: 15px;
   transition: all 150ms ease-in-out;
 }
 
 .main img:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
+}
+
+.contacto{
+  padding-bottom: 15px;
+  background: linear-gradient(135deg, rgb(206, 159, 252) 10%, rgb(115, 103, 240) 100%);
+  transition: all 150ms ease-in-out;
+}
+
+.contact:hover{
+  transform: scale(1.05);
+}
+
+.contact h2{
+  font-family: var(--text-font);
+  font-size: 45px;
+  color: #512DA8;
 }
 
 

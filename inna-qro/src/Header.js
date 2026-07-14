@@ -36,7 +36,7 @@ export default function Header(){
                             <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://api.whatsapp.com/send?phone=524423460246" target="_blank" rel="noreferrer" className="nav-link">Envia mensaje <i class="fa-brands fa-whatsapp contact-icon"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=524423460246" target="_blank" rel="noreferrer" className="nav-link">Reserva tu clase <i class="fa-brands fa-whatsapp contact-icon"></i></a>
                         </li>
                     </ul>
                     </div>
