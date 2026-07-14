@@ -17,7 +17,7 @@ import Nosotros from "./nosotros";
 import Espacio from "./espacio";
 import Contacto from "./contacto";
 
-
+import Carousel from 'react-bootstrap/Carousel';
 
 
 
@@ -26,26 +26,22 @@ export default function Main(){
         <div className="main">
             <div className="container">
                 <div className="row name">
-                    <div className="col-lg-6 col-sm-12">
-                        <h1>Inna Pole Querétaro</h1>
-                        
-                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src={karla} alt="karla" class="d-block w-100" className="img-fluid"/>
-                                </div>  
-                                <div class="carousel-item">
-                                    <img src={jess} alt="jess" class="d-block w-100" className="img-fluid"/>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src={alam} alt="alam" class="d-block w-100" className="img-fluid"/>
-                                </div>
-                            </div>
-                        </div>
-                       
+                    <div className="col-lg-6 col-sm-6">
+                        <h1>Inna Pole Querétaro</h1>   
                     </div>    
                 </div>
                     <hr/>
+                    <Carousel>
+                            <Carousel.Item>
+                                <img src={karla} alt="karla" class="d-block w-100" className="img-fluid"/>
+                            </Carousel.Item>
+                            <Carousel.Item>    
+                                <img src={jess} alt="jess" class="d-block w-100" className="img-fluid"/>
+                            </Carousel.Item>    
+                            <Carousel.Item>        
+                                <img src={alam} alt="alam" class="d-block w-100" className="img-fluid"/>
+                            </Carousel.Item>
+                        </Carousel>
                     <div className="main-info">
                         <div className="row">
                             <div className="col-lg-6 col-sm-12">
