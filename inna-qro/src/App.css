@@ -1,0 +1,138 @@
+:root{
+  --primary-color: #512DA8;
+  --secondary-color: #673AB7;
+  --link-color: #440be0;
+  --hover-color: #757575;
+  --divider-color-gradient: linear-gradient(135deg, #f5f7fa 0%, #d37ef5 100%);
+  --divider-color: #080a0b;
+  --subtitle-font: "Kode Mono", monospace;
+  --text-font: "Young Serif", serif;
+  --secondary-font: "Poppins", sans-serif;
+}
+
+body{
+  background: linear-gradient(179.4deg, rgb(220, 224, 249) -16.9%, rgb(250, 240, 253) 119.9%);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+.main{
+  color: #090b0e;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main .name{
+  background-image: url(./fondo-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main h1{
+  padding: 50px;
+  font-size: 45px;
+  font-weight: 800;
+  color: #152a26;
+}
+
+.main h1:hover{
+  color: var(--primary-color);
+  background-color: rgba(192, 192, 245, 0.6);
+}
+
+.main h2{
+  font-family: var(--text-font);
+  color: #152a26;
+}
+
+.main p{
+  font-family: var(--secondary-font);
+}
+
+.main-info{
+  padding: 30px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFF;
+}
+
+.main-info h2:hover{
+  background-color: rgba(243, 192, 245, 0.6);
+}
+
+.main img{
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  border-radius: 15px;
+  transition: all 150ms ease-in-out;
+}
+
+.main img:hover{
+  transform: scale(1.1);
+}
+
+.contacto{
+  padding-bottom: 15px;
+  background: linear-gradient(135deg, rgb(206, 159, 252) 10%, rgb(115, 103, 240) 100%);
+  transition: all 150ms ease-in-out;
+}
+
+.contact:hover{
+  transform: scale(1.05);
+}
+
+.contact h2{
+  font-family: var(--text-font);
+  font-size: 45px;
+  color: #512DA8;
+}
+
+
+Footer{
+  padding-top: 5px;
+  background: var(--divider-color-gradient);
+  width: 100%;
+  min-height: 30px;
+}
+
+Footer .container{
+  margin-left: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+Footer .card{
+background: #fff;
+width: 18rem;
+}
+
+footer .card-body a{
+  margin: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #bd5fe2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
