@@ -1,11 +1,11 @@
 import React from "react";
-import horario from "./horario-Inna-Qro.png";
+import workout from "./workout.mp4";
 
 export default function Videos (){
     return (
         <div className="videos" id="videos">
             <h2>Videos</h2>
-            <img src={horario} alt="horario" className="img-fluid"/>
+            <video src={workout} alt="video" className="w-50" autoplay muted loop/>
         </div>
     )
 }

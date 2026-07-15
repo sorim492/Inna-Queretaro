@@ -75,26 +75,33 @@ body{
   transition: all 150ms ease-in-out;
 }
 
-.main img:hover{
-  transform: scale(1.1);
-}
-
 .contacto{
   padding-bottom: 15px;
   background: linear-gradient(135deg, rgb(206, 159, 252) 10%, rgb(115, 103, 240) 100%);
   transition: all 150ms ease-in-out;
 }
 
-.contact:hover{
+.contacto:hover{
   transform: scale(1.05);
 }
 
-.contact h2{
+.contacto h2{
   font-family: var(--text-font);
   font-size: 45px;
   color: #512DA8;
 }
 
+.costos img{
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.clases img{
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+}
 
 Footer{
   padding-top: 5px;

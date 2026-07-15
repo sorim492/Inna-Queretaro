@@ -36,7 +36,7 @@ export default function Main(){
                                 <img src={karla} alt="karla" class="d-block w-100" className="img-fluid"/>
                             </Carousel.Item>
                             <Carousel.Item>    
-                                <img src={jess} alt="jess" class="d-block w-100" className="img-fluid"/>
+                                <img src={jess} alt="jess" class="d-block w-15" className="img-fluid"/>
                             </Carousel.Item>    
                             <Carousel.Item>        
                                 <img src={alam} alt="alam" class="d-block w-100" className="img-fluid"/>
@@ -48,75 +48,95 @@ export default function Main(){
                                 <a class="nav-link" href="#fit"><h2>Pole Fit</h2></a>
                             </div>
                             <div className="col-lg-6 col-sm-12">
-                            <a class="nav-link" href="#flex"><h2>Pole Flex</h2></a>
+                                <a class="nav-link" href="#flex"><h2>Pole Flex</h2></a>
                             </div>
                             <div className="col-lg-6 col-sm-12">
-                            <a class="nav-link" href="#fly"><h2>Pole Fly</h2></a>
+                                <a class="nav-link" href="#fly"><h2>Pole Fly</h2></a>
                             </div>
                             <div className="col-lg-6 col-sm-12">
-                            <a class="nav-link" href="#flow"><h2>Pole Flow</h2></a>
+                                <a class="nav-link" href="#flow"><h2>Pole Flow</h2></a>
                             </div>
                             <div className="col-lg-6 col-sm-12">
-                            <a class="nav-link" href="#exotic"><h2>Pole Exotic</h2></a>
+                                <a class="nav-link" href="#exotic"><h2>Pole Exotic</h2></a>
                             </div>
                             <div className="col-lg-6 col-sm-12">
-                            <a class="nav-link" href="#power"><h2>Pole Power</h2></a>
+                                <a class="nav-link" href="#power"><h2>Pole Power</h2></a>
+                            </div>
+                            <div className="col-lg-6 col-sm-12">
+                                <a class="nav-link" href="#espacio"><h2>Renta de espacio</h2></a>
+                            </div>
+                            <div className="col-lg-6 col-sm-12">
+                                <a class="nav-link" href="#talleres"><h2>Talleres</h2></a>
                             </div>
                         </div>
                     </div>
+                    <hr/>
                     <div id="fit">
                         <img src={kari} alt="personal" className="img-fluid"/>
+                        <br/>
                         <p> 
-                            Pole Fit Se enfoca en el entrenamiento físico, fuerza, resistencia y acondicionamiento.
+                            <h3>Pole Fit</h3> Se enfoca en el entrenamiento físico, fuerza, resistencia y acondicionamiento.
                         </p>
                     </div>
+                    <hr/>
                     <div id="flex">
                         <img src={luci} alt="personal" className="img-fluid"/>
+                        <br/>
                         <p>
-                            Pole Flex Enfatiza posturas y transiciones que requieren gran flexibilidad.
+                            <h3>Pole Flex</h3> Enfatiza posturas y transiciones que requieren gran flexibilidad.
                         </p>
                     </div>
+                    <hr/>
                     <div id="fly">
                         <img src={lupe} alt="personal" className="img-fluid"/>
+                        <br/>
                         <p>
-                            Pole Fly Se centra en la fluidez de movimientos, transiciones suaves y conexión con la música.
+                            <h3>Pole Fly</h3> Se centra en la fluidez de movimientos, transiciones suaves y conexión con la música.
                         </p>
                     </div>
+                    <hr/>
                     <div id="flow">
                         <img src={teffyflow} alt="personal" className="img-fluid"/>
+                        <br/>
                         <p>
-                            Pole Flow Se centra en la fluidez de movimientos, transiciones suaves y conexión con la música.
+                            <h3>Pole Flow</h3> Se centra en la fluidez de movimientos, transiciones suaves y conexión con la música.
                         </p>
                     </div>
+                    <hr/>
                     <div id="exotic">
                         <img src={teffyexotic} alt="personal" className="img-fluid"/>
+                        <br/>
                         <p>
-                            Pole Exotic Se centra en la fluidez de movimientos, transiciones suaves y conexión con la música.
+                            <h3>Pole Exotic</h3>Pole Exotic Se centra en la fluidez de movimientos, transiciones suaves y conexión con la música.
                         </p>
                     </div>
+                    <hr/>
                     <div id="Power">
                         <img src={mariel} alt="personal" className="img-fluid"/>
+                        <br/>
                         <p>
-                            Pole Power Entrenamiento físico, enfocado en fuerza, resistencia, acondicionamiento y acrobacia con un mayor grado de dificultad.
+                            <h3>Pole Power</h3> Entrenamiento físico, enfocado en fuerza, resistencia, acondicionamiento y acrobacia con un mayor grado de dificultad.
                         </p>
                     </div>
-                    
+                    <hr/>
                     <div className="main-info">
                         <div className="row">
-                            <div className="col-lg-6 col-sm-12">
-                            <a class="nav-link" href="#espacio"><h2>Renta de espacio</h2></a>
+                            <div className="col-lg-6 col-sm-6">
+                                <Clases/>   
                             </div>
-                            <div className="col-lg-6 col-sm-12">
-                            <a class="nav-link" href="#talleres"><h2>Talleres</h2></a>
+                            <div className="col-lg-6 col-sm-6">
+                                <Costos/>
                             </div>
                         </div>
                     </div>
-                   <Clases/>
-                   <Costos/>
                    <Videos/>
+                   <hr/>
                    <Talleres/>
+                   <hr/>
                    <Nosotros/>
+                   <hr/>
                    <Espacio/>
+                   <hr/>
                    <Contacto/>
             </div>
         </div>
